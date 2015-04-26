@@ -1,0 +1,5 @@
+set terminal png
+set output 'graph.png'
+set xlabel 'Zeit in Sekunden'
+set ylabel 'Grad Celsius'
+plot 'temps.dat'

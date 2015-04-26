@@ -2,7 +2,7 @@ SRC = main.c
 EXEC = miwe
 CFLAGS = -Wall
 
-miwe:
+miwe: $(SRC)
 	gcc $(SRC) -o $(EXEC) $(CFLAGS) -O3
 
 debug:

@@ -8,7 +8,7 @@ int main(int argc, char const **argv)
 	double currValue = 0;
 	double sum = 0;
 	int i = 1;
-	
+
 	if (argc == 1)
 	{
 		printf("No values given...\n");
