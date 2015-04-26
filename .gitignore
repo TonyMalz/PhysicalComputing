@@ -34,3 +34,6 @@
 # other
 *.zip
 *.pdf
+*.png
+*.dat
+*.DS_Store
