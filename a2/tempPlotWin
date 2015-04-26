@@ -1,0 +1,4 @@
+set terminal x11 persist
+set xlabel 'Zeit in Sekunden'
+set ylabel 'Grad Celsius'
+plot 'temps.dat'

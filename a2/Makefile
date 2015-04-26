@@ -12,7 +12,11 @@ plot: main
 	./extractTemps sensordata.txt temps.dat
 	gnuplot tempPlot
 
-showplotmac: plot
+plotwin: main
+	./extractTemps.exe sensordata.txt temps.dat
+	gnuplot tempPlotWin
+
+plotmac: plot
 	qlmanage -p graph.png
 
 clean:
